@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		E93C05FE26D8C35A000E2DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C05FD26D8C35A000E2DCE /* AppDelegate.swift */; };
 		E93C060026D8C35A000E2DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C05FF26D8C35A000E2DCE /* SceneDelegate.swift */; };
-		E93C060226D8C35A000E2DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C060126D8C35A000E2DCE /* ViewController.swift */; };
-		E93C060526D8C35A000E2DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C060326D8C35A000E2DCE /* Main.storyboard */; };
 		E93C060726D8C35B000E2DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93C060626D8C35B000E2DCE /* Assets.xcassets */; };
 		E93C060A26D8C35B000E2DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C060826D8C35B000E2DCE /* LaunchScreen.storyboard */; };
+		E93C061526D8C41A000E2DCE /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C061426D8C41A000E2DCE /* URLManager.swift */; };
+		E93C061926D8C5BF000E2DCE /* VenueStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C061826D8C5BF000E2DCE /* VenueStruct.swift */; };
+		E93C061C26D8C61B000E2DCE /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C061B26D8C61B000E2DCE /* DBManager.swift */; };
+		E93C062026D8C8F6000E2DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C061F26D8C8F6000E2DCE /* ViewController.swift */; };
+		E93C062326D8CC47000E2DCE /* MatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C062226D8CC47000E2DCE /* MatchesTableViewCell.swift */; };
+		E93C062826D8CFEB000E2DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C062726D8CFEB000E2DCE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E93C05FA26D8C35A000E2DCE /* CemtrexLabs machine test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CemtrexLabs machine test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93C05FD26D8C35A000E2DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E93C05FF26D8C35A000E2DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E93C060126D8C35A000E2DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E93C060426D8C35A000E2DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E93C060626D8C35B000E2DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93C060926D8C35B000E2DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93C060B26D8C35B000E2DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93C061426D8C41A000E2DCE /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		E93C061826D8C5BF000E2DCE /* VenueStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueStruct.swift; sourceTree = "<group>"; };
+		E93C061B26D8C61B000E2DCE /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		E93C061F26D8C8F6000E2DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E93C062226D8CC47000E2DCE /* MatchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewCell.swift; sourceTree = "<group>"; };
+		E93C062726D8CFEB000E2DCE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		E93C05FC26D8C35A000E2DCE /* CemtrexLabs machine test */ = {
 			isa = PBXGroup;
 			children = (
+				E93C061326D8C3CD000E2DCE /* Model */,
+				E93C061E26D8C7F4000E2DCE /* Controller */,
 				E93C05FD26D8C35A000E2DCE /* AppDelegate.swift */,
 				E93C05FF26D8C35A000E2DCE /* SceneDelegate.swift */,
-				E93C060126D8C35A000E2DCE /* ViewController.swift */,
-				E93C060326D8C35A000E2DCE /* Main.storyboard */,
+				E93C062726D8CFEB000E2DCE /* Main.storyboard */,
 				E93C060626D8C35B000E2DCE /* Assets.xcassets */,
 				E93C060826D8C35B000E2DCE /* LaunchScreen.storyboard */,
 				E93C060B26D8C35B000E2DCE /* Info.plist */,
 			);
 			path = "CemtrexLabs machine test";
+			sourceTree = "<group>";
+		};
+		E93C061326D8C3CD000E2DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E93C061426D8C41A000E2DCE /* URLManager.swift */,
+				E93C061826D8C5BF000E2DCE /* VenueStruct.swift */,
+				E93C061B26D8C61B000E2DCE /* DBManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E93C061E26D8C7F4000E2DCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E93C061F26D8C8F6000E2DCE /* ViewController.swift */,
+				E93C062226D8CC47000E2DCE /* MatchesTableViewCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93C062826D8CFEB000E2DCE /* Main.storyboard in Resources */,
 				E93C060A26D8C35B000E2DCE /* LaunchScreen.storyboard in Resources */,
 				E93C060726D8C35B000E2DCE /* Assets.xcassets in Resources */,
-				E93C060526D8C35A000E2DCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93C060226D8C35A000E2DCE /* ViewController.swift in Sources */,
+				E93C061C26D8C61B000E2DCE /* DBManager.swift in Sources */,
+				E93C061526D8C41A000E2DCE /* URLManager.swift in Sources */,
+				E93C061926D8C5BF000E2DCE /* VenueStruct.swift in Sources */,
+				E93C062026D8C8F6000E2DCE /* ViewController.swift in Sources */,
+				E93C062326D8CC47000E2DCE /* MatchesTableViewCell.swift in Sources */,
 				E93C05FE26D8C35A000E2DCE /* AppDelegate.swift in Sources */,
 				E93C060026D8C35A000E2DCE /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E93C060326D8C35A000E2DCE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E93C060426D8C35A000E2DCE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E93C060826D8C35B000E2DCE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
